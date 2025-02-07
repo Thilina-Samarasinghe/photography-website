@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malcolm Lismore Photography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">Malcolm Lismore</div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="prices.html">Prices</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- slider -->
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="image/img1.jpg">
+                <div class="content">
+                    <h2>Stunning Landscapes</h2>
+                    <p>
+                        Capturing the rugged beauty of Scotland's landscapes.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img2.jpg">
+                <div class="content">
+                    <h2>Wildlife Wonders</h2>
+                    <p>
+                        Discover the natural wildlife through my lens.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+                <div class="content">
+                    <h2>Special Events</h2>
+                    <p>
+                        Creating lasting memories of your special occasions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="image/img1.jpg">
+            </div>
+            <div class="item">
+                <img src="image/img2.jpg">
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- Customer Reviews Section -->
+<section class="customer-reviews">
+    <h2>Customer Reviews</h2>
+    <div class="reviews">
+        <div class="review">
+            <div class="review-header">
+                <span class="review-name">John Doe</span>
+                <span class="review-date">March 12, 2024</span>
+                <span class="review-rating">★★★★★</span>
+            </div>
+            <p>Malcolm's photography is exceptional! The attention to detail and creativity in each shot is amazing. Highly recommend!</p>
+        </div>
+        <div class="review">
+            <div class="review-header">
+                <span class="review-name">Jane Smith</span>
+                <span class="review-date">February 28, 2024</span>
+                <span class="review-rating">★★★★★</span>
+            </div>
+            <p>Beautiful portraits! The session was fun and the results were beyond expectations.</p>
+        </div>
+        <div class="review">
+            <div class="review-header">
+                <span class="review-name">Alice Johnson</span>
+                <span class="review-date">January 15, 2024</span>
+                <span class="review-rating">★★★★★</span>
+            </div>
+            <p>The wedding photos are absolutely stunning! Thank you for capturing our special day so perfectly.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul class="footer-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="prices.html">Prices</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="footer-social">
+                    <li><a href="#"><img src="image/facebook-icon.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="image/twitter-icon.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="image/instagram-icon.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="image/linkedin-icon.png" alt="LinkedIn"></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Our Location</h3>
+                <div id="map"></div>
+                <!-- Include Google Maps script -->
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Malcolm Lismore. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
